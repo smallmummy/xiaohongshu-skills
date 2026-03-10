@@ -313,4 +313,10 @@ STEALTH_ARGS = [
     "--disable-component-update",
     "--disable-extensions",
     "--disable-sync",
+    # added for WSL2 in Win
+    '--no-sandbox',
+    '--disable-setuid-sandbox', 
+    '--disable-dev-shm-usage', 
+    '--enable-logging',
+    '--v=1'
 ]
